@@ -1,2 +1,2 @@
 # howto
- short code snippets
+ Short code snippets.
