@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>div_instead_table</title>
+	<style>
+		.table-wrapper{
+			display: table;
+		}
+		.table-row{
+			display: table-row;
+		}
+		.table-cell{
+			display: table-cell;
+			border: 1px solid gray;
+			padding: 5px;
+			margin: 2px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="table-wrapper">
+	<div class="table-row">
+		<div class="table-cell">Id</div>
+		<div class="table-cell">Name</div>
+		<div class="table-cell">Age</div>
+	</div>
+	<div class="table-row">
+		<div class="table-cell">1</div>
+		<div class="table-cell">Joe</div>
+		<div class="table-cell">25</div>
+	</div>
+	<div class="table-row">
+		<div class="table-cell">2</div>
+		<div class="table-cell">Robbin</div>
+		<div class="table-cell">33</div>
+	</div>
+	<div class="table-row" id="row">
+		<div class="table-cell">3</div>
+		<div class="table-cell">Mark</div>
+		<div class="table-cell">62</div>
+	</div>
+</div>
+
+</body>
+</html>
