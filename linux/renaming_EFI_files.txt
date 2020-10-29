@@ -1,0 +1,9 @@
+
+https://askubuntu.com/questions/485261/change-boot-order-using-efibootmgr
+
+sudo su
+cd /boot/efi/EFI
+mv BOOT BOOT_bak
+cp -R ubuntu BOOT
+cd BOOT
+mv shimx64.efi bootx64.efi
