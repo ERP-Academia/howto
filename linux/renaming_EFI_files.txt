@@ -1,4 +1,7 @@
 
+//** RENAME EFI FILES TO BOOT LINUX
+//***************************************
+
 https://askubuntu.com/questions/485261/change-boot-order-using-efibootmgr
 
 sudo su
@@ -7,3 +10,9 @@ mv BOOT BOOT_bak
 cp -R ubuntu BOOT
 cd BOOT
 mv shimx64.efi bootx64.efi
+
+
+//** list devices by uuid
+
+# lsblk -f
+# ls -l /dev/disk/by-uuid
